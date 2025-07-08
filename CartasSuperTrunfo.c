@@ -19,6 +19,12 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+
+    // Cabeçalho do Jogo
+
+    printf("*********************************\n");
+    printf("* JOGO DE CARTAS - SUPER TRUNFO *\n");
+    printf("*********************************\n");
     
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
