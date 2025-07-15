@@ -15,6 +15,8 @@ int main() {
     float area_km01, area_km02;
     float pib01, pib02;
     int pontos_turisticos01, pontos_turisticos02;
+    float densidade01, densidade02;
+    float percapta01, percapta02;
     
     // Cabeçalho do Jogo
 
