@@ -10,7 +10,7 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     char estado01[15], estado02[15];
-    char codigo_carta01[3], codigo_carta02[3];
+    char codigo_carta01[10], codigo_carta02[10];
     int populacao01, populacao02;
     float area_km01, area_km02;
     float pib01, pib02;
@@ -85,10 +85,11 @@ int main() {
     printf("\nEstado: %s\n", estado01);
     printf("Código da Carta: %s\n", codigo_carta01);
     printf("População: %i\n", populacao01);
-    printf("Área em Km²: %f\n", area_km01);
-    printf("PIB: %f\n", pib01);
+    printf("Área em Km²: %.2f\n", area_km01);
+    printf("PIB: %.3f\n", pib01);
     printf("Número de Pontos Turísticos: %i\n", pontos_turisticos01);
-    
+    printf("A densidade Populacional é: %.2f hab/km²\n", densidade01);
+    printf("O Pib Per Capta é: %.2f reais", percapta01);
 
     printf("\n");
 
@@ -97,9 +98,12 @@ int main() {
     printf("\n Estado: %s\n", estado02);
     printf("Código da Carta: %s\n", codigo_carta02);
     printf("População: %i\n", populacao02);
-    printf("Área em Km²: %f\n", area_km02);
-    printf("PIB: %f\n", pib02);
+    printf("Área em Km²: %.2f\n", area_km02);
+    printf("PIB: %.3f\n", pib02);
     printf("Número de Pontos Turísticos: %i\n", pontos_turisticos02);
+    printf("A densidade Populacional é: %.2f hab/km²\n", densidade02);
+    printf("O Pib Per Capta é: %.2f reais", percapta02);
+    printf("\n");
 
 
     return 0;
